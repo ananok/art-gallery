@@ -1,0 +1,31 @@
+:root{
+
+    /* background */
+--bg-gold: #D5966C;
+--bg-black:#151515;
+--bg-white:#FFFFFF;
+
+
+
+/* text color */
+--text-grey:#444444;
+--text-black:#151515;
+--text-white:#FFFFFF;
+--text-gold:#D5966C;
+
+/* text typography */
+
+--heading-xl:96px;
+--heading-l:70px;
+--heading-m:60px;
+--heading-s:50px;
+--heading-xs:36px
+
+--body-m:22px;
+--body-s:18px;
+
+--font-big:'Big Shoulders Display', cursive;
+--font-light:'Outfit', sans-serif;
+
+}
+
