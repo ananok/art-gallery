@@ -17,7 +17,7 @@ body{
     width:91.5%;
    
 }
-.wrapper img{
+.section-two img{
     width:100%;
 }
 
@@ -234,45 +234,76 @@ footer{
         display: block;
     
     }
-
+   
     .section-one{
         width:339px;
         height:410px;
         float:right;
-        margin-top:-700px;
+        margin-top:-679px;
+        padding-left: 6px;
 
     }
-
+    .btn-div{
+        margin-left: -8px;
+    }
     h1{
         margin-top:0;
+        font-size:var(--heading-l);
+        font-style: normal;
+        font-weight: 900;
+        line-height: 65px;
+        text-transform: uppercase;
+        height: 130px;
+        width: 331px;
+        
+    }
+
+    .para1{
+        margin-top:48px;
+    }
+    .btn-location{
+        margin-top:48px;
+    }
+
+    a{
+        margin-top:48px;
+    }
+    .your-day-heading{
+        width:223px;
+        height:135px;
+        margin-top: 36px;
     }
     .section-two {
         display: flex;
-        margin-top: 120px;
-        width: 745px;
+        width: 689px;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
         align-content: space-around;
         justify-content: flex-end;
         align-items: flex-start;
+        margin-top:120px;
     }    
-    .wrapper img {
-        width: 57%;
+    .section-two img {
+        min-width: 398px;
+        margin-left: 68px;
+        height: 400px;
     }
     .gallery-day {
-        height: 223px;
-        width: 43%;
+        height: 299px;
+        width: 32%;
+
     }
     .section-three {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
-        /* align-items: center; */
         height: 728px;
         width: 697px;
+        margin-top: 11px;
     }
-    
+    .section-three img {
+        margin-bottom: 10px;
+    }
     .one{
         width: 398px;
         height: 720px;
@@ -284,12 +315,20 @@ footer{
     }
     .inspired{
         display: inline-flex;
-        /* margin-top: 16px; */
-        height: 270px;
+        height: 396px;
         flex-direction: column;
         align-items: center;
-        width: 275px;
+        width: 280px;
+        margin-top:0px;
 
+    }
+    .inspired-heading{
+        width: 223px;
+        margin-top:85px;
+    }
+    .para3{
+        width: 223px;
+        height: 112px;
     }
     .footer-wrapper {
         background-color: var(--bg-black);
@@ -305,12 +344,24 @@ footer{
     
     footer{
         width: 689px;
+        height:104px;
+        margin:56px 40px 56px 39px;
         display: flex;
         flex-direction: row;
         align-content: center;
-        justify-content: space-around;
         align-items: flex-start;
     }
+    .logo-light{
+        margin-top:0px;
+    }
+    .footer-para{
+        margin-top:0px;
+        margin-left:65px;
+    }
 
-
+    .socials{
+        margin-top:0px;
+        margin-left:133px;
+    }
 }
+
