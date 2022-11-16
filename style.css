@@ -9,9 +9,9 @@ font-family: 'Outfit', sans-serif; */
 body {
   font-style: normal;
 }
-.conainer {
-  max-width: 1440px;
-  margin: 0 auto;
+.container{
+    width: 100%;
+    margin: 0 auto;
 }
 .black {
   display: none;
@@ -232,7 +232,9 @@ footer {
   .black {
     display: none;
   }
-
+.container{
+    width:780px;
+}
   .hero {
     display: none;
   }
@@ -364,7 +366,7 @@ footer {
   footer {
     width: 689px;
     height: 104px;
-    margin: 56px 40px 56px 39px;
+    margin: 56px auto 56px auto;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -385,6 +387,11 @@ footer {
 }
 
 @media (min-width: 1440px) {
+  .container{
+    width: 1440px;
+    margin: 0 auto;
+  }    
+    
   .black {
     display: inline-block;
     width: 450px;

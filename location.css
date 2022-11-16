@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
 
-
+body{
+    background-color: var(--bg-black);
+}
 .map-section{
     width:375px;
     height:550px;
+    margin:0 auto;
 }
 .btn-location-div{
     width:264px;
@@ -48,6 +51,10 @@
 .location-img2{
     display: none;
 }
+
+.location-img3{
+    display: none;
+}
 .location-info{
     height:493px;
     width:375px;
@@ -57,6 +64,7 @@
     flex-direction: column;
     align-items: center;
     font-family: var(--font-big);
+    margin:0 auto;
 }
 
 .location-info h1{
@@ -110,7 +118,8 @@
     background-color: var(--bg-gold);
     display:flex;
     flex-direction: column;
-    color:var(--text-black)
+    color:var(--text-black);
+    margin:0 auto;
 }
 
 .logo-black{
@@ -166,9 +175,11 @@
         width: 100%;
         display: block;
     }
-
+.location-img3{
+    display: none;
+}
     .location-info{
-        width:100%;
+        width:768px;
         display: grid;
         grid-template-columns: auto auto;
         flex-direction: row;
@@ -210,7 +221,7 @@
 
     .gallery-info{
         flex-direction:row;
-        width:100%;
+        width:768px;
         justify-content: space-around;
         height:216px;
     }
@@ -224,4 +235,93 @@
     .logo-black{
         margin:56px 0px 0px 0px;
     }
+    @media (min-width:1440px) {
+        .map-section{
+            width:1440px;
+            margin: 0 auto;
+        }
+
+        .location-info{
+            width: 1440px;
+            height: 548px;
+            margin-top:86px;
+        }
+        .location-img3{
+        width:100%;
+        display: block;
+        height:685px;
+
+        }
+        .location-img2, .location-img{
+            display: none;
+        }
+
+        .btn-location-div {
+            margin-left: 156px;
+            width: 264px;
+        }
+
+        .location-info h1{
+            width: 350px;
+            height: 140px;
+            font-size: 70px;
+            line-height: 70px;
+            margin-top: 104px;
+            margin-left: 165px;
+            margin-right:220px;
+        }
+
+        .location-info h3{
+            margin-top: 104px;
+            font-size: 36px;
+            line-height: 36px;
+            width: 350px;
+            height: 36px;
+        }
+
+        .address{
+            font-size: 22px;
+            line-height: 32px;
+            width: 445px;
+            height: 96px;
+            margin-top: 24px;
+        }
+
+        .gallery-loc{
+            width: 540px;
+            height: 128px;
+            font-size: 22px;
+            line-height: 32px;
+            margin-top: 32px;
+        }
+
+        .logo-black{
+            width:160px;
+            height:60px;
+            margin-top: 80px;
+            margin-left: 165px;
+        }
+
+        .gallery-info{       
+            width: 1440px;
+            height: 244px;
+            justify-content: flex-start;
+
+        }
+
+        .gallery-info p{
+            width: 430px;
+            height: 84px;
+            font-size: 18px;
+            line-height: 28px;
+            margin-top:80px;
+            margin-left:140px;
+        }
+
+        .loc-socials{
+            margin-left:280px;
+            margin-top:80px;
+        }
+    }
+
 }
